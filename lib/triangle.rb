@@ -17,6 +17,8 @@ class Triangle < Shape
     array = [side_1, side_2, side_3].sort
     if (array[0]**2) + (array[1]**2) == (array[2]**2)
       true
+    else
+      false
     end
   end
 end
