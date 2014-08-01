@@ -15,7 +15,7 @@ describe Square do
 
   describe '#initialize' do
     it 'takes one argument, the size of the side' do
-      expect(subject).to be
+      expect(subject).to be_a(Square)
     end
   end
 
