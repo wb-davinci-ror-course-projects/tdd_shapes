@@ -33,5 +33,9 @@ describe Triangle do
     it 'returns true if triangle has a right angle' do
       expect(subject.right_angle?(3, 4, 5)).to eq(true)
     end
+
+    it 'returns false if triangle does not have a right triangle' do
+      expect(subject.right_angle?(1,1,2)).to be_false
+    end
   end
 end
